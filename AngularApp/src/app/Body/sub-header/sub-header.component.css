@@ -1,0 +1,11 @@
+.wrapper-sub {
+  width: 100%;
+  height: 520.38px;
+  /*background-image: url("https://placehold.co/2008x520");*/
+  background-image: url("/assets/photo/sub-header_back.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=sub-header.component.css.map */

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.wrapper {
+  width: 100%;
+}
+
+.header__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1140px;
+  height: 100.19px;
+  margin: 0 auto;
+}
+.header__info__logo {
+  padding: 15px;
+}
+.header__info__contact {
+  flex-direction: column;
+  justify-self: end;
+}
+.header__info__contact__up {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 10px 10px;
+}
+.header__info__contact__up__number {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+.header__info__contact__up__language__select {
+  appearance: none; /* Убираем стандартный стиль */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-repeat: no-repeat;
+  width: 40px;
+}
+.header__info__contact__up__language__option {
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.header__info__contact__down {
+  display: flex;
+}
+.header__info__contact__down__social-media {
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+.nav-wrapper {
+  width: 100%;
+  background-color: #FF7A00;
+  height: 52.8px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+  width: 1140px;
+  position: sticky;
+  top: 0;
+}
+.nav__button {
+  color: white;
+  background-color: #FF7A00;
+  height: 52.8px;
+  font-size: 1.2rem;
+}
+.nav__button:hover {
+  color: #FF7A00;
+  background-color: white;
+}
+
+/*# sourceMappingURL=header.component.css.map */

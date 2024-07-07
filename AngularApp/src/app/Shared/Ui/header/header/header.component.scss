@@ -1,0 +1,90 @@
+@import "../../../../var";
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  &__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1140px;
+    height: 100.19px;
+    margin: 0 auto;
+
+    &__logo {
+      padding: 15px;
+    }
+
+    &__contact {
+      flex-direction: column;
+      justify-self: end;
+
+      &__up {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0 10px 10px;
+
+        &__number {
+          display: flex;
+          justify-content: space-around;
+          font-size: 1.3em;
+          font-weight: 300;
+
+        }
+
+        &__language {
+          &__select{
+            appearance: none; /* Убираем стандартный стиль */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-repeat: no-repeat;
+            width: 40px;
+          }
+
+          &__option{
+            margin: 10px;
+            background-repeat: no-repeat;
+            background-position: left center;
+          }
+        }
+      }
+
+      &__down {
+        display: flex;
+
+        &__social-media {
+          font-size: 1.3em;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+.nav-wrapper {
+  width: 100%;
+  background-color: $base-color;
+  height: 52.8px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  margin: 0 auto;
+  width: 1140px;
+  position: sticky;
+  top: 0;
+  &__button {
+    color: white;
+    background-color: $base-color;
+    height: 52.8px;
+    font-size: 1.2rem;
+    &:hover{
+      color: $base-color;
+      background-color: white;
+    }
+  }
+}
+
