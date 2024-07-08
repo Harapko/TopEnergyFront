@@ -1,4 +1,4 @@
-@import "../../../../var";
+@import "../../../../var.scss";
 
 .wrapper {
   width: 100%;
@@ -17,6 +17,8 @@
     }
 
     &__contact {
+      padding-top: 0.4rem;
+      width: 285px;
       flex-direction: column;
       justify-self: end;
 
@@ -28,13 +30,13 @@
         &__number {
           display: flex;
           justify-content: space-around;
-          font-size: 1.3em;
-          font-weight: 300;
+          font-size: 1.4em;
+          font-weight: 250;
 
         }
 
         &__language {
-          &__select{
+          &__select {
             appearance: none; /* Убираем стандартный стиль */
             -webkit-appearance: none;
             -moz-appearance: none;
@@ -42,7 +44,7 @@
             width: 40px;
           }
 
-          &__option{
+          &__option {
             margin: 10px;
             background-repeat: no-repeat;
             background-position: left center;
@@ -52,10 +54,14 @@
 
       &__down {
         display: flex;
+        font-size: 1.4em;
 
         &__social-media {
-          font-size: 1.3em;
-          margin: 10px;
+          margin: 11px;
+
+          &:hover {
+            color: #fd7e14;
+          }
         }
       }
     }
@@ -76,15 +82,47 @@
   width: 1140px;
   position: sticky;
   top: 0;
+
   &__button {
     color: white;
     background-color: $base-color;
     height: 52.8px;
     font-size: 1.2rem;
-    &:hover{
+
+    &:hover {
       color: $base-color;
       background-color: white;
     }
   }
 }
+
+.instagram {
+  color: #E65350;
+}
+
+.telegram {
+  color: #0088cc
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.youtube {
+  color: #c4302b;
+}
+
+.whatsapp {
+  color: #06A411;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+
 

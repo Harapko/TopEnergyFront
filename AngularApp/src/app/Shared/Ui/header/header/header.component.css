@@ -14,6 +14,8 @@
   padding: 15px;
 }
 .header__info__contact {
+  padding-top: 0.4rem;
+  width: 285px;
   flex-direction: column;
   justify-self: end;
 }
@@ -25,8 +27,8 @@
 .header__info__contact__up__number {
   display: flex;
   justify-content: space-around;
-  font-size: 1.3em;
-  font-weight: 300;
+  font-size: 1.4em;
+  font-weight: 250;
 }
 .header__info__contact__up__language__select {
   appearance: none; /* Убираем стандартный стиль */
@@ -42,10 +44,13 @@
 }
 .header__info__contact__down {
   display: flex;
+  font-size: 1.4em;
 }
 .header__info__contact__down__social-media {
-  font-size: 1.3em;
-  margin: 10px;
+  margin: 11px;
+}
+.header__info__contact__down__social-media:hover {
+  color: #fd7e14;
 }
 
 .nav-wrapper {
@@ -71,6 +76,34 @@
 .nav__button:hover {
   color: #FF7A00;
   background-color: white;
+}
+
+.instagram {
+  color: #E65350;
+}
+
+.telegram {
+  color: #0088cc;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.youtube {
+  color: #c4302b;
+}
+
+.whatsapp {
+  color: #06A411;
+}
+
+.linkedin {
+  color: #0e76a8;
 }
 
 /*# sourceMappingURL=header.component.css.map */

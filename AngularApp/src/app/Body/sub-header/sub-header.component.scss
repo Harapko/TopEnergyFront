@@ -1,9 +1,113 @@
+@import "./../../var.scss";
+
 .wrapper-sub {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.sub-header {
   width: 100%;
   height: 520.38px;
-  /*background-image: url("https://placehold.co/2008x520");*/
   background-image: url("/assets/photo/sub-header_back.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  &__info {
+    width: 570px;
+    height: 424px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 40px;
+
+    &__title {
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      word-break: break-all;
+    }
+
+    &__sub-title {
+      font-size: 28px;
+      font-weight: 350;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      word-break: break-all;
+
+    }
+
+    &__list {
+      margin-bottom: 30px;
+      font-weight: 300;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      padding-left: 40px;
+
+      & li {
+        margin-bottom: 7px;
+      }
+    }
+
+    &__buttons {
+      display: flex;
+
+      & button {
+        width: 280px;
+        height: 53px;
+      }
+    }
+
+    &__buttons__get-offer-button {
+      color: white;
+      border: 2px solid white;
+      background: none;
+      margin-right: 5px;
+
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        background-color: white;
+        color: black;
+      }
+    }
+
+    &__buttons__calculate-offer-button {
+      background-color: $base-color;
+      color: white;
+
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        background-color: white;
+        color: $base-color;
+      }
+    }
+  }
 }
+
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px 0 50px 0;
+  &__title {
+    font-size: 35px;
+    font-weight: 300;
+    color: $base-color;
+    line-height: 1.2;
+  }
+
+  &__text {
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.6;
+    width: 540px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .sub-header__info {
+  }
+}
+
+
