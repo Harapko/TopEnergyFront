@@ -1,0 +1,56 @@
+@import "./../../var.scss";
+
+.product {
+  &__title {
+    display: flex;
+    background-color: $base-color;
+    height: 62px;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    color: white;
+
+    &__wrapper {
+      align-self: center;
+      width: 1140px;
+      margin: 0 auto;
+
+    }
+  }
+
+  &__list {
+    margin: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+
+    &__item {
+      width: 245px;
+      cursor: pointer;
+
+      &__photo {
+        width: 225px;
+        height: 225px;
+      }
+
+      &__button {
+        width: 245px;
+        height: 53px;
+        margin-top: 10px;
+        background-color: white;
+        border: 2px solid $base-color;
+        color: $base-color;
+
+        &:hover {
+          color: white;
+          background-color: $base-color;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1140px;
+}
