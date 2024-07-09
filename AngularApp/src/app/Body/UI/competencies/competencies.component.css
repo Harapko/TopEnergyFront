@@ -1,0 +1,133 @@
+.competencies__title {
+  align-self: center;
+  width: 1140px;
+  margin: 0 auto;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  color: white;
+}
+.competencies__info__title {
+  font-size: 34px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.competencies__info__sub-title {
+  font-size: 33.59px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.competencies__info__text {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 200;
+  color: #FF7A00;
+}
+.competencies__info__text span {
+  font-weight: 500;
+}
+.competencies__list {
+  display: grid;
+  width: 950px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, 286px);
+  justify-content: space-around;
+}
+.competencies__list__item {
+  display: grid;
+}
+.competencies__list__item__photo {
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+}
+.competencies__list__item__button {
+  font-weight: 400;
+  width: 300px;
+  height: 58px;
+  margin-top: 10px;
+  background-color: white;
+  border: 2px solid #FF7A00;
+  color: #FF7A00;
+}
+.competencies__list__item__button:hover {
+  color: white;
+  background-color: #FF7A00;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 62px;
+  background-color: #FF7A00;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.developments {
+  width: 100%;
+  height: 452.78px;
+  margin-top: 50px;
+  background-color: #c4c4c4;
+}
+.developments__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1140px;
+  margin: 0 auto;
+}
+.developments__info {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+}
+.developments__info__title {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.developments__info__title span {
+  font-weight: 200;
+}
+.developments__info__text {
+  padding-top: 15px;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #212529;
+}
+.developments__info__advantages {
+  display: flex;
+  justify-content: space-between;
+}
+.developments__info__advantages__list {
+  width: 296.2px;
+  padding-top: 20px;
+  list-style: none;
+}
+.developments__info__advantages__list__item {
+  display: flex;
+  align-items: center;
+  width: 296.2px;
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 24px;
+  font-weight: 200;
+  background-color: #FF7A00;
+  color: #ffffff;
+}
+.developments__info__icon {
+  align-self: end;
+  width: 179px;
+  height: 103.13px;
+}
+.developments__photo {
+  width: 540px;
+  height: 421.22px;
+}
+
+/*# sourceMappingURL=competencies.component.css.map */
