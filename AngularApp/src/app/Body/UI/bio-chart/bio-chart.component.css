@@ -1,0 +1,53 @@
+.chart {
+  width: 100%;
+  height: 930px;
+  background-image: url("/assets/photo/chart_back_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chart__wrapper {
+  padding-top: 50px;
+  padding-left: 10px;
+  width: 1140px;
+  margin: 0 auto;
+}
+.chart__title {
+  font-size: 45px;
+  font-weight: 200;
+}
+.chart__title span {
+  font-weight: 600;
+}
+.chart__subtitle {
+  padding-top: 15px;
+  font-size: 23px;
+  font-weight: 200;
+}
+.chart__subtitle span {
+  color: #FF7A00;
+  font-weight: 600;
+}
+.chart__list {
+  display: flex;
+  width: 760px;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.chart__list__item__photo {
+  width: 160px;
+  height: 160px;
+}
+.chart__list__item__name {
+  padding-top: 8px;
+  text-align: center;
+}
+.chart__list__item:hover {
+  transform: scale(1.2);
+}
+.chart__canvas {
+  padding-top: 20px;
+  width: 540px;
+  height: 540px;
+}
+
+/*# sourceMappingURL=bio-chart.component.css.map */

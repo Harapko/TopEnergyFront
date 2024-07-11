@@ -1,0 +1,64 @@
+.experience {
+  width: 100%;
+}
+.experience__wrapper {
+  padding-top: 40px;
+  width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 285px 855px);
+}
+.experience__image {
+  display: grid;
+  gap: 40px;
+}
+.experience__image__item {
+  width: 160px;
+  height: 93px;
+}
+.experience__list {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+.experience__list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 305px;
+}
+.experience__list__item__photo {
+  width: 200px;
+  height: 200px;
+}
+.experience__list__item__button {
+  font-size: 15px;
+  width: 305px;
+  height: 73px;
+  border: 2px solid #FF7A00;
+  color: #FF7A00;
+  background-color: white;
+}
+.experience__list__item__button:hover {
+  color: white;
+  background-color: #FF7A00;
+  transition: 0.4s;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 62px;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  color: white;
+  background-color: #FF7A00;
+  margin-right: 200px;
+}
+.title__text {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=experience.component.css.map */
