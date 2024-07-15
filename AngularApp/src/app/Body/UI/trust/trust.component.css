@@ -1,0 +1,17 @@
+.trust__title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 62px;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  color: white;
+  background-color: #FF7A00;
+  margin-right: 200px;
+}
+.trust__title__container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=trust.component.css.map */

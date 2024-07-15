@@ -1,0 +1,39 @@
+.patents {
+  margin-top: 50px;
+  width: 100%;
+}
+.patents__title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 62px;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  color: white;
+  background-color: #FF7A00;
+  margin-right: 200px;
+}
+.patents__title__container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.patents__wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+.patents__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 150px;
+  padding-top: 50px;
+}
+.patents__list__item {
+  width: 200px;
+  height: 290px;
+}
+.patents__list__item:hover {
+  transition-duration: 300ms;
+  transform: translate3d(0px, 0px, 0px) scale(4);
+}
+
+/*# sourceMappingURL=patents.component.css.map */
