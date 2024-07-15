@@ -1,3 +1,6 @@
+.trust {
+  margin-top: 80px;
+}
 .trust__title {
   display: flex;
   align-items: center;
@@ -12,6 +15,23 @@
 .trust__title__container {
   width: 1140px;
   margin: 0 auto;
+}
+.trust__wrapper {
+  padding-top: 80px;
+  width: 1140px;
+  margin: 0 auto;
+}
+.trust__swiper {
+  height: 300px;
+  width: 1140px;
+}
+.trust__swiper__slide {
+  display: flex;
+  justify-content: center;
+}
+.trust__photo {
+  width: 150px;
+  height: 98.59px;
 }
 
 /*# sourceMappingURL=trust.component.css.map */
