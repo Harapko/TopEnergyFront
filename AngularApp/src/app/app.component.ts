@@ -10,11 +10,12 @@ import {PatentsComponent} from "./Body/UI/patents/patents.component";
 import {TrustComponent} from "./Body/UI/trust/trust.component";
 import {MapComponent} from "./Body/UI/map/map.component";
 import {NewsComponent} from "./Body/UI/news/news.component";
+import {OfferComponent} from "./Body/UI/offer/offer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, SubHeaderComponent, ProductsComponent, CompetenciesComponent, BioChartComponent, ExperienceComponent, PatentsComponent, TrustComponent, MapComponent, NewsComponent],
+  imports: [RouterOutlet, HeaderComponent, SubHeaderComponent, ProductsComponent, CompetenciesComponent, BioChartComponent, ExperienceComponent, PatentsComponent, TrustComponent, MapComponent, NewsComponent, OfferComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

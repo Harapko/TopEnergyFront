@@ -1,0 +1,40 @@
+.offer {
+  margin-top: 50px;
+}
+.offer__title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 62px;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  color: white;
+  background-color: #FF7A00;
+  margin-right: 200px;
+}
+.offer__title__container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.offer__wrapper {
+  padding-top: 50px;
+  width: 1140px;
+  margin: 0 auto;
+}
+.offer__form select {
+  width: 531px;
+  height: 38px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.offer__form__info {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 500px);
+}
+.offer__form__email {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/*# sourceMappingURL=offer.component.css.map */

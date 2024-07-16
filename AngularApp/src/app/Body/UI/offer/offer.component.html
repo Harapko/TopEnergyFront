@@ -1,0 +1,72 @@
+<div class="offer">
+  <div class="offer__title">
+    <div class="offer__title__container">ОТРИМАТИ ПРОПОЗИЦІЮ</div>
+  </div>
+  <div class="offer__wrapper">
+    <form class="offer__form">
+      <div class="offer__form__info">
+        <mat-form-field class="offer__form__full-name">
+          <mat-label>ПІБ</mat-label>
+          <input matInput #message maxlength="256" placeholder="">
+        </mat-form-field>
+        <mat-form-field class="offer__form__type">
+          <mat-label>ТИП ВИРОБНИЦТВА/ГАЛУЗЬ ЗАСТОСУВАННЯ</mat-label>
+          <input matInput #message maxlength="256" placeholder="">
+        </mat-form-field>
+        <mat-form-field class="offer__form__organization">
+          <mat-label>ОРГАНІЗАЦІЯ</mat-label>
+          <input matInput #message maxlength="256" placeholder="">
+        </mat-form-field>
+        <mat-form-field color="accent" class="offer__form__coolant">
+          <mat-label>ТЕПЛОНІСІЙ</mat-label>
+          <mat-select disableRipple>
+            @for (item of coolants; track item){
+              <mat-option value="{{item.value}}">{{item.viewValue}}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="offer__form__country">
+          <mat-label>КРАЇНА</mat-label>
+          <mat-select disableRipple>
+            @for (item of countries; track item){
+              <mat-option value="{{item.value}}">{{item.viewValue}}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="offer__form__fuel">
+          <mat-label>ПАЛИВО</mat-label>
+          <mat-select disableRipple>
+            @for (item of fuels; track item){
+              <mat-option value="{{item.value}}">{{item.viewValue}}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="offer__form__state">
+          <mat-label>РЕГІОН</mat-label>
+          <mat-select disableRipple>
+            @for (item of states; track item){
+              <mat-option value="{{item.value}}">{{item.viewValue}}</mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+        <input type="range" class="offer__form__power">
+
+        <mat-form-field class="offer__form__phone">
+          <mat-label>Телефон</mat-label>
+          <span class="offer__form__phone__code" matTextPrefix>+380 &nbsp;</span>
+          <input class="offer__form__phone__input" type="tel" matInput placeholder="66 536 35 18">
+        </mat-form-field>
+        <mat-form-field class="offer__form__email">
+          <mat-label>ЕЛЕКТРОННА ПОШТА</mat-label>
+          <input matInput #message maxlength="256" placeholder="">
+        </mat-form-field>
+
+
+
+      </div>
+      <button class="offer__form__submit-button"></button>
+    </form>
+  </div>
+</div>
+
+
