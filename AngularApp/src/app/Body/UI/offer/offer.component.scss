@@ -1,8 +1,9 @@
 @import "./../../../var";
-
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 .offer {
   margin-top: 50px;
+
   &__title {
     display: flex;
     align-items: center;
@@ -13,6 +14,7 @@
     color: white;
     background-color: $base-color;
     margin-right: 200px;
+
     &__container {
       width: 1140px;
       margin: 0 auto;
@@ -32,6 +34,7 @@
       border: 1px solid #ced4da;
       border-radius: 4px;
     }
+
     &__info {
       display: grid;
       gap: 20px;
@@ -60,8 +63,6 @@
     }
 
     &__email {
-      grid-column-start: 1;
-      grid-column-end: 2;
     }
 
     &__type {
@@ -80,5 +81,6 @@
     }
   }
 }
+
 
 
