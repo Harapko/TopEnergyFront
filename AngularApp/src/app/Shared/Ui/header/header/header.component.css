@@ -45,9 +45,7 @@
 .header__info__contact__down {
   display: flex;
   font-size: 1.4em;
-}
-.header__info__contact__down__social-media {
-  margin: 11px;
+  justify-content: space-around;
 }
 .header__info__contact__down__social-media:hover {
   color: #fd7e14;

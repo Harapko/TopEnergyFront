@@ -55,9 +55,8 @@
       &__down {
         display: flex;
         font-size: 1.4em;
-
+        justify-content: space-around;
         &__social-media {
-          margin: 11px;
 
           &:hover {
             color: #fd7e14;
