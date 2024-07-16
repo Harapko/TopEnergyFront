@@ -31,9 +31,10 @@
   width: 200px;
   height: 290px;
 }
-.patents__list__item:hover {
-  transition-duration: 300ms;
-  transform: translate3d(0px, 0px, 0px) scale(4);
+
+swiper-container {
+  width: 1140px;
+  height: 100%;
 }
 
 /*# sourceMappingURL=patents.component.css.map */

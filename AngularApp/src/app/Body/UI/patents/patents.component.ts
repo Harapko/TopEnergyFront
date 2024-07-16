@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({
@@ -8,7 +8,8 @@ import {NgOptimizedImage} from "@angular/common";
     NgOptimizedImage
   ],
   templateUrl: './patents.component.html',
-  styleUrl: './patents.component.scss'
+  styleUrl: './patents.component.scss',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PatentsComponent {
 

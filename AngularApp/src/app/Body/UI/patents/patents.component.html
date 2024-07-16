@@ -6,12 +6,33 @@
   </div>
   <div class="patents__wrapper">
     <div class="patents__list">
-      <img ngSrc="assets/photo/patent.jpg" alt=""
-           class="patents__list__item" height="3507" width="2481">
-      <img ngSrc="assets/photo/patent.jpg" alt=""
-           class="patents__list__item" height="3507" width="2481">
-      <img ngSrc="assets/photo/patent.jpg" alt=""
-           class="patents__list__item" height="3507" width="2481">
+      <swiper-container
+        class="mySwiper"
+        zoom="true"
+        grid-rows="1"
+        slides-per-view="3">
+        <swiper-slide>
+          <div class="swiper-zoom-container">
+            <img ngSrc="assets/photo/patent.jpg" alt=""
+                 class="patents__list__item" height="3507" width="2481">
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="swiper-zoom-container">
+            <img ngSrc="assets/photo/patent.jpg" alt=""
+                 class="patents__list__item" height="3507" width="2481">
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="swiper-zoom-container">
+            <img ngSrc="assets/photo/patent.jpg" alt=""
+                 class="patents__list__item" height="3507" width="2481">
+          </div>
+        </swiper-slide>
+      </swiper-container>
     </div>
   </div>
 </div>
+
+
+
