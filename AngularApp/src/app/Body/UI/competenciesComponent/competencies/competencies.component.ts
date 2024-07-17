@@ -7,6 +7,7 @@ import {GoalComponent} from "../goal/goal.component";
 import {ProductionComponent} from "../production/production.component";
 import {ConstructionComponent} from "../construction/construction.component";
 import {ScrollHeaderService} from "../../../../Shared/Core/scroll-header.service";
+import {AppearOnScrollDirective} from "../../../Core/appear-on-scroll.directive";
 
 @Component({
   selector: 'app-competencies',
@@ -18,7 +19,8 @@ import {ScrollHeaderService} from "../../../../Shared/Core/scroll-header.service
     DesignComponent,
     GoalComponent,
     ProductionComponent,
-    ConstructionComponent
+    ConstructionComponent,
+    AppearOnScrollDirective
   ],
   templateUrl: './competencies.component.html',
   styleUrl: './competencies.component.scss'

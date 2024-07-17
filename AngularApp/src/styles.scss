@@ -128,7 +128,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.mdc-text-field--focused{
-  background-color: red;
-  color: red;
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.appear {
+  opacity: 1;
 }
