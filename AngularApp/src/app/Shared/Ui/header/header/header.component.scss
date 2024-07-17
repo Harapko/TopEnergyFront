@@ -56,6 +56,7 @@
         display: flex;
         font-size: 1.4em;
         justify-content: space-around;
+
         &__social-media {
 
           &:hover {
@@ -67,33 +68,8 @@
   }
 }
 
-.nav-wrapper {
-  width: 100%;
-  background-color: $base-color;
-  height: 52.8px;
-}
 
-.nav {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
 
-  margin: 0 auto;
-  width: 1140px;
-  position: sticky;
-  top: 0;
-
-  &__button {
-    color: white;
-    background-color: $base-color;
-    height: 52.8px;
-    font-size: 1.2rem;
-
-    &:hover {
-      color: $base-color;
-      background-color: white;
-    }
-  }
-}
 
 .instagram {
   color: #E65350;

@@ -33,5 +33,20 @@
   gap: 20px;
   grid-template-columns: repeat(auto-fill, 500px);
 }
+.offer__form__phone__code {
+  color: black;
+}
+.offer__form__submit-button {
+  width: 208px;
+  height: 53px;
+  background-color: white;
+  color: #FF7A00;
+  border: 2px solid #FF7A00;
+}
+.offer__form__submit-button:hover {
+  background-color: #FF7A00;
+  color: white;
+  transition: 0.3s;
+}
 
 /*# sourceMappingURL=offer.component.css.map */

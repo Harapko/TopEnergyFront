@@ -1,0 +1,108 @@
+@import "../../../var";
+.footer {
+  width: 100%;
+  background-color: $base-color;
+  margin-top: 50px;
+  &__wrapper {
+    display: grid;
+    gap: 150px;
+    grid-template-columns: repeat(auto-fit, 285px 185px 475px);
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  &__info {
+    color: white;
+    &__name {
+      padding-top: 30px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 10px;
+    }
+
+    &__address {
+      padding-top: 15px;
+      font-size: 18px;
+      font-weight: 200;
+    }
+  }
+
+  &__contact {
+    padding-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    &__number{
+      line-height: 15px;
+      display: grid;
+      grid-template-columns: 40px 150px;
+    }
+    &__email{
+      display: grid;
+      grid-template-columns: 40px 150px;
+      padding-top: 20px;
+    }
+  }
+
+  &__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.bi {
+}
+
+.bi-instagram {
+}
+
+.header {
+  &__info {
+    &__contact__down__social-media {
+    }
+  }
+}
+
+.instagram {
+}
+
+.bi-telegram {
+}
+
+.telegram {
+}
+
+.bi-facebook {
+}
+
+.facebook {
+}
+
+.bi-twitter {
+}
+
+.twitter {
+}
+
+.bi-youtube {
+}
+
+.youtube {
+}
+
+.bi-whatsapp {
+}
+
+.whatsapp {
+}
+
+.bi-linkedin {
+}
+
+.linkedin {
+}

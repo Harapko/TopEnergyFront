@@ -1,0 +1,53 @@
+.footer {
+  width: 100%;
+  background-color: #FF7A00;
+  margin-top: 50px;
+}
+.footer__wrapper {
+  display: grid;
+  gap: 150px;
+  grid-template-columns: repeat(auto-fit, 285px 185px 475px);
+  width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.footer__info {
+  color: white;
+}
+.footer__info__name {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 10px;
+}
+.footer__info__address {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.footer__contact {
+  padding-top: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer__contact__number {
+  line-height: 15px;
+  display: grid;
+  grid-template-columns: 40px 150px;
+}
+.footer__contact__email {
+  display: grid;
+  grid-template-columns: 40px 150px;
+  padding-top: 20px;
+}
+.footer__social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=footer.component.css.map */

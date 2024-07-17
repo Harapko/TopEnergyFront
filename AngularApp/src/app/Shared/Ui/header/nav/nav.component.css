@@ -1,0 +1,23 @@
+.nav {
+  width: 100%;
+  background-color: #FF7A00;
+  height: 52.8px;
+}
+.nav__wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+  width: 1140px;
+}
+.nav__button {
+  color: white;
+  background-color: #FF7A00;
+  height: 52.8px;
+  font-size: 1.2rem;
+}
+.nav__button:hover {
+  color: #FF7A00;
+  background-color: white;
+}
+
+/*# sourceMappingURL=nav.component.css.map */

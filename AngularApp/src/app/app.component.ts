@@ -11,11 +11,14 @@ import {TrustComponent} from "./Body/UI/trust/trust.component";
 import {MapComponent} from "./Body/UI/map/map.component";
 import {NewsComponent} from "./Body/UI/news/news.component";
 import {OfferComponent} from "./Body/UI/offer/offer.component";
+import {UnitBodyComponent} from "./Body/UI/unit-body/unit-body.component";
+import {NavComponent} from "./Shared/Ui/header/nav/nav.component";
+import {FooterComponent} from "./Shared/Ui/footer/footer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, SubHeaderComponent, ProductsComponent, CompetenciesComponent, BioChartComponent, ExperienceComponent, PatentsComponent, TrustComponent, MapComponent, NewsComponent, OfferComponent],
+  imports: [RouterOutlet, HeaderComponent, SubHeaderComponent, ProductsComponent, CompetenciesComponent, BioChartComponent, ExperienceComponent, PatentsComponent, TrustComponent, MapComponent, NewsComponent, OfferComponent, UnitBodyComponent, NavComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

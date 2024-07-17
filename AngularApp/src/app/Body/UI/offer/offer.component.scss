@@ -57,6 +57,7 @@
     }
 
     &__phone__code {
+      color: black;
     }
 
     &__phone__input {
@@ -78,6 +79,17 @@
     }
 
     &__submit-button {
+      width: 208px;
+      height: 53px;
+      background-color: white;
+      color: $base-color;
+      border: 2px solid $base-color;
+
+      &:hover{
+        background-color: $base-color;
+        color: white;
+        transition: 0.3s;
+      }
     }
   }
 }
