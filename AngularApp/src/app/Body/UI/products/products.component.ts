@@ -13,5 +13,19 @@ import {RouterLink} from "@angular/router";
   styleUrl: './products.component.scss'
 })
 export class ProductsComponent {
+  ngOnInit(){
+    this.scrollTest();
+  }
 
+  public scrollTest(){
+    let product = document.getElementById('product__list')
+    if (product){
+      window.addEventListener('scroll',()=>{
+        let value = window.scrollY;
+        product.style.left =+ value * 0.35 + 'px';
+        // product.style.left = value + 'px';
+        console.log(value);
+      })
+    }
+  }
 }
