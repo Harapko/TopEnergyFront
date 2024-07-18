@@ -1,6 +1,7 @@
-<section appAppearOnScroll id="competenciesId" class="competencies hidden">
-  <div class="container">
-    <div class="competencies__title">
+<section id="competenciesId" class="competencies">
+  <div id="container" class="container">
+    <div class="competencies__title"
+         appScrollSpy [offsetTop]="0.9">
       МОЖЛИВОСТІ TEFF
     </div>
   </div>
@@ -18,42 +19,54 @@
         <img ngSrc="../../../../../assets/photo/competencies/competencies1.png" alt=""
              class="competencies__list__item__photo"
              height="512" width="512">
-        <button (click)="scrollService.navigateToAndScroll('developmentsId')" class="competencies__list__item__button">РОЗРОБКИ ТА ІННОВАЦІЇ</button>
+        <button (click)="scrollService.navigateToAndScroll('developmentsId')" class="competencies__list__item__button">
+          РОЗРОБКИ ТА ІННОВАЦІЇ
+        </button>
       </div>
 
       <div class="competencies__list__item">
         <img ngSrc="../../../../../assets/photo/competencies/competencies2.png" alt=""
              class="competencies__list__item__photo"
              height="512" width="512">
-        <button (click)="scrollService.navigateToAndScroll('physicsId')" class="competencies__list__item__button">ПРОЕКТУВАННЯ ОБ’ЄКТІВ</button>
+        <button (click)="scrollService.navigateToAndScroll('physicsId')" class="competencies__list__item__button">
+          ПРОЕКТУВАННЯ ОБ’ЄКТІВ
+        </button>
       </div>
 
       <div class="competencies__list__item">
         <img ngSrc="../../../../../assets/photo/competencies/competencies3.png" alt=""
              class="competencies__list__item__photo"
              height="512" width="512">
-        <button (click)="scrollService.navigateToAndScroll('productionId')" class="competencies__list__item__button">ВИРОБНИЦТВО</button>
+        <button (click)="scrollService.navigateToAndScroll('productionId')" class="competencies__list__item__button">
+          ВИРОБНИЦТВО
+        </button>
       </div>
 
       <div class="competencies__list__item">
         <img ngSrc="../../../../../assets/photo/competencies/competencies4.png" alt=""
              class="competencies__list__item__photo"
              height="512" width="512">
-        <button (click)="scrollService.navigateToAndScroll('constructionId')" class="competencies__list__item__button">МОНТАЖ</button>
+        <button (click)="scrollService.navigateToAndScroll('constructionId')" class="competencies__list__item__button">
+          МОНТАЖ
+        </button>
       </div>
 
       <div class="competencies__list__item">
         <img ngSrc="../../../../../assets/photo/competencies/competencies5.png" alt=""
              class="competencies__list__item__photo"
              height="512" width="512">
-        <button (click)="scrollService.navigateToAndScroll('constructionId')" class="competencies__list__item__button">ЗАПУСК В РОБОТУ</button>
+        <button (click)="scrollService.navigateToAndScroll('constructionId')" class="competencies__list__item__button">
+          ЗАПУСК В РОБОТУ
+        </button>
       </div>
 
       <div class="competencies__list__item">
         <img ngSrc="../../../../../assets/photo/competencies/competencies6.png" alt=""
              class="competencies__list__item__photo"
              height="512" width="512">
-        <button (click)="scrollService.navigateToAndScroll('constructionId')" class="competencies__list__item__button">СЕРВІСНА ПІДТРИМКА 24/7</button>
+        <button (click)="scrollService.navigateToAndScroll('constructionId')" class="competencies__list__item__button">
+          СЕРВІСНА ПІДТРИМКА 24/7
+        </button>
       </div>
 
     </div>

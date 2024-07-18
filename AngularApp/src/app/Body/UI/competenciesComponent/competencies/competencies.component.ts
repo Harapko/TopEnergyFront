@@ -7,7 +7,7 @@ import {GoalComponent} from "../goal/goal.component";
 import {ProductionComponent} from "../production/production.component";
 import {ConstructionComponent} from "../construction/construction.component";
 import {ScrollHeaderService} from "../../../../Shared/Core/scroll-header.service";
-import {AppearOnScrollDirective} from "../../../Core/appear-on-scroll.directive";
+import {ScrollSpyDirective} from "../../../Core/scroll-spy.directive";
 
 @Component({
   selector: 'app-competencies',
@@ -20,11 +20,12 @@ import {AppearOnScrollDirective} from "../../../Core/appear-on-scroll.directive"
     GoalComponent,
     ProductionComponent,
     ConstructionComponent,
-    AppearOnScrollDirective
+    ScrollSpyDirective,
   ],
   templateUrl: './competencies.component.html',
   styleUrl: './competencies.component.scss'
 })
 export class CompetenciesComponent {
   public scrollService = inject(ScrollHeaderService);
+
 }

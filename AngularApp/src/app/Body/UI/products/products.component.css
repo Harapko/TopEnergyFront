@@ -14,7 +14,9 @@
   margin: 0 auto;
 }
 .product__list {
-  position: relative;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateY(-20px);
   margin: 50px 0 50px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
@@ -42,6 +44,7 @@
 }
 
 .wrapper {
+  margin: 0 auto;
   width: 1140px;
 }
 

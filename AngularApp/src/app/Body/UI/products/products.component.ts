@@ -1,31 +1,20 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 import {RouterLink} from "@angular/router";
+import {ScrollHeaderService} from "../../../Shared/Core/scroll-header.service";
+import {ScrollSpyDirective} from "../../Core/scroll-spy.directive";
 
 @Component({
   selector: 'app-products',
   standalone: true,
   imports: [
     NgOptimizedImage,
-    RouterLink
+    RouterLink,
+    ScrollSpyDirective,
   ],
   templateUrl: './products.component.html',
   styleUrl: './products.component.scss'
 })
 export class ProductsComponent {
-  ngOnInit(){
-    this.scrollTest();
-  }
 
-  public scrollTest(){
-    let product = document.getElementById('product__list')
-    if (product){
-      window.addEventListener('scroll',()=>{
-        let value = window.scrollY;
-        product.style.left =+ value * 0.35 + 'px';
-        // product.style.left = value + 'px';
-        console.log(value);
-      })
-    }
-  }
 }
